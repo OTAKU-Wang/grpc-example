@@ -12,7 +12,7 @@ add_subdirectory(internal)
 add_subdirectory(api/address)
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${PROJECT_SOURCE_DIR}/bin)
 
-add_executable(server ${ALL_SRCS})
+add_executable(server ${ALL_SRCS} client/main.cpp)
 
 target_link_libraries(server
         address_svc
