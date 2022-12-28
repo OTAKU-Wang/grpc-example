@@ -25,3 +25,8 @@ compile_commands.json
 .cproject
 .project
 .setting
+
+.cmake
+CMakeFiles
+
+.idea
