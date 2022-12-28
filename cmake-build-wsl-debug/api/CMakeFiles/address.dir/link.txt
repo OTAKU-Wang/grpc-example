@@ -1,2 +1,0 @@
-/usr/bin/ar qc libaddress.a CMakeFiles/address.dir/address/address.pb.cc.o CMakeFiles/address.dir/address/addressbook.pb.cc.o CMakeFiles/address.dir/address/address.grpc.pb.cc.o CMakeFiles/address.dir/address/addressbook.grpc.pb.cc.o
-/usr/bin/ranlib libaddress.a

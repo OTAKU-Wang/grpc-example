@@ -1,5 +1,0 @@
-/home/wangmaoshuai/workspace/grpc-example/cmake-build-wsl-debug/CMakeFiles/grpc_example.dir
-/home/wangmaoshuai/workspace/grpc-example/cmake-build-wsl-debug/CMakeFiles/edit_cache.dir
-/home/wangmaoshuai/workspace/grpc-example/cmake-build-wsl-debug/CMakeFiles/rebuild_cache.dir
-/home/wangmaoshuai/workspace/grpc-example/cmake-build-wsl-debug/internal/CMakeFiles/edit_cache.dir
-/home/wangmaoshuai/workspace/grpc-example/cmake-build-wsl-debug/internal/CMakeFiles/rebuild_cache.dir
