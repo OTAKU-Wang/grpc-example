@@ -7,7 +7,7 @@ find_package(Threads)
 aux_source_directory(. ALL_SRCS)
 include_directories(. ./internal ./api/address)
 add_subdirectory(internal)
-add_subdirectory(api/)
+add_subdirectory(api/address)
 
 add_executable(server ${ALL_SRCS})
 
