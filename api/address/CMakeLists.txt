@@ -1,4 +1,5 @@
 cmake_minimum_required(VERSION 3.22)
+set(CMAKE_LIBRARY_OUTPUT_DIRECTORY ${PROJECT_SOURCE_DIR}/lib)
 
 if (COMMAND cmake_policy)
     cmake_policy(SET CMP0003 NEW)
@@ -22,7 +23,7 @@ set(PROTO_FILES
         "addressbook.proto"
         )
 
-add_library(address_proto ${PROTO_FILES})
+add_library(address_proto SHARED  ${PROTO_FILES})
 target_link_libraries(address_proto
         PUBLIC
         protobuf::libprotobuf
