@@ -1,5 +1,0 @@
-# Hashes of file build rules.
-e891167ade894e6a69c521c21187b054 api/address/address.grpc.pb.h
-40e4b14449d798957939fea587643ca0 api/address/address.pb.h
-fd002de9ace2d19aecaa7b15b81adbe1 api/address/addressbook.grpc.pb.h
-613acb744b8f08ecca456025d1ee11c3 api/address/addressbook.pb.h
