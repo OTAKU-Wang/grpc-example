@@ -1,0 +1,27 @@
+# Makefile's cache
+cache.mk
+
+# C/C++ build outputs
+.build/
+build/
+bins
+gens
+libs
+objs
+# cmake build files
+**/cmake/build/
+
+# Visual Studio Code artifacts
+.cache/*
+.vscode/*
+.history/
+
+# Clion artifacts
+cmake-build-debug/
+# clang JSON compilation database file
+compile_commands.json
+
+# eclipse project files
+.cproject
+.project
+.setting

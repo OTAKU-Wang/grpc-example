@@ -1,0 +1,1 @@
+/usr/bin/c++ -O3 -DNDEBUG CMakeFiles/grpc_example.dir/main.cpp.o -o grpc_example  api/address/libaddress_rpc.a internal/libaddress_svc.a 

@@ -1,0 +1,277 @@
+{
+	"archive" : {},
+	"artifacts" : 
+	[
+		{
+			"path" : "api/libaddress_proto.a"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"target_link_libraries",
+			"include_directories",
+			"target_include_directories",
+			"target_sources",
+			"protobuf_generate"
+		],
+		"files" : 
+		[
+			"api/CMakeLists.txt",
+			"CMakeLists.txt",
+			"/usr/local/lib/cmake/protobuf/protobuf-config.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 25,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 0
+			},
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 8,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 33,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 36,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 161,
+				"parent" : 6
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 37,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 161,
+				"parent" : 8
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-O3 -DNDEBUG"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 2,
+					"define" : "CARES_STATICLIB"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 4,
+					"path" : "/home/wangmaoshuai/workspace/grpc-example/."
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/wangmaoshuai/workspace/grpc-example/./internal"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/wangmaoshuai/workspace/grpc-example/./api/address"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/wangmaoshuai/workspace/grpc-example/api"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "17"
+			},
+			"sourceIndexes" : 
+			[
+				3,
+				5,
+				7,
+				9
+			]
+		}
+	],
+	"id" : "address_proto::@10fae538ba4e8521554e",
+	"name" : "address_proto",
+	"nameOnDisk" : "libaddress_proto.a",
+	"paths" : 
+	{
+		"build" : "api",
+		"source" : "api"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0,
+				1
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				2,
+				4,
+				6,
+				8
+			]
+		},
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				3,
+				5,
+				7,
+				9
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				10,
+				11,
+				12,
+				13
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"path" : "api/address/address.proto",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "api/address/addressbook.proto",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 7,
+			"isGenerated" : true,
+			"path" : "api/address/address.pb.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 7,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "api/address/address.pb.cc",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 7,
+			"isGenerated" : true,
+			"path" : "api/address/addressbook.pb.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 7,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "api/address/addressbook.pb.cc",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 9,
+			"isGenerated" : true,
+			"path" : "api/address/address.grpc.pb.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 9,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "api/address/address.grpc.pb.cc",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 9,
+			"isGenerated" : true,
+			"path" : "api/address/addressbook.grpc.pb.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 9,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "api/address/addressbook.grpc.pb.cc",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "api/address/address.pb.h.rule",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "api/address/addressbook.pb.h.rule",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "api/address/address.grpc.pb.h.rule",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "api/address/addressbook.grpc.pb.h.rule",
+			"sourceGroupIndex" : 3
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

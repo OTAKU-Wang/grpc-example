@@ -1,0 +1,11 @@
+C:\WINDOWS\system32\wsl.exe --distribution Ubuntu-22.04 --exec /usr/bin/zsh -c "export CMAKE_COLOR_DIAGNOSTICS=ON && export CLION_IDE=TRUE && export JETBRAINS_IDE=TRUE && cd /home/wangmaoshuai/workspace/grpc-example && /usr/bin/cmake -DCMAKE_BUILD_TYPE=Release -G 'CodeBlocks - Unix Makefiles' -S /home/wangmaoshuai/workspace/grpc-example -B /home/wangmaoshuai/workspace/grpc-example"
+CMake Error at CMakeLists.txt:10 (add_subdirectory):
+  The source directory
+
+    /home/wangmaoshuai/workspace/grpc-example/api
+
+  does not contain a CMakeLists.txt file.
+
+
+-- Configuring incomplete, errors occurred!
+See also "/home/wangmaoshuai/workspace/grpc-example/CMakeFiles/CMakeOutput.log".
