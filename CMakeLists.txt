@@ -15,5 +15,6 @@ set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${PROJECT_SOURCE_DIR}/bin)
 add_executable(server ${ALL_SRCS})
 
 target_link_libraries(server
+        PRIVATE
         address_svc
         )

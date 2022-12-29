@@ -18,7 +18,7 @@ objs
 
 # Clion artifacts
 cmake-build-debug/
-cmake-build-wsl-debug
+cmake-build-wsl-debug/
 # clang JSON compilation database file
 compile_commands.json
 
